@@ -1,37 +1,25 @@
-# Dynamic Video
+# Trello 2.0
 
-A very cool project - Dynamic Video.
-
-# SERVER:
-
-Node.js
-Express
-Winston (As a local logger).
+A very cool project - Trello 2.0.
 
 # CLIENT:
 
 Next.js
-Custom hooks
-Material UI 4
+TypeScript
+TailwindCSS
+@headlessui/react
+@heroicons/react
+appwrite
+openai
+zustand
 
 ## Getting Started
 
 # Instructions:
 
-1. Fork the project or download it.
-2. Open the server project.
-3. On the terminal: npm i
-4. Once finished, on terminal: npm run dev
-5. Wait for the server to be up.
-6. Open the client project.
-7. On the terminal: npm i
-8. Once finished, on terminal: npm run dev
-9. Wait for the client to connect to the server's Socket.IO.
-10. Once the UI is up, click on the red "Order" button and make some yummy pizzas.
-11. Once you click on the "Checkout" button you will start to see all your orders.
-12. Let the show begin and happy testing! :)
-
-PLEASE FILL ALL THE FIELDS IN THE FORM IN ORDER FOR IT TO WORK.
+1. On the terminal: npm i
+2. Once finished, on terminal: npm run dev
+3. Happy Testings. :)
 
 ## Author
 
