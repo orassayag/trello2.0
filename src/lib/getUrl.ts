@@ -1,4 +1,4 @@
-import { storage } from "../../appwrite";
+import { storage } from '../../appwrite';
 
 const getUrl = async (image: Image) => {
   const url = await storage.getFilePreview(image.bucketId, image.fileId);

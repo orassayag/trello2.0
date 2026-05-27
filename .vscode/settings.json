@@ -2,24 +2,39 @@
   "cSpell.words": [
     "appwrite",
     "Assayag",
+    "esbenp",
     "headlessui",
     "heroicons",
+    "inprogress",
     "linebreak",
     "openai",
+    "orassayag",
     "papareact",
     "parens",
     "tailwindcss",
     "todos",
     "zustand"
   ],
+  "cSpell.ignorePaths": [
+    "coverage",
+    "node_modules",
+    "dist",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml"
+  ],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
   "[javascriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features",
-    "editor.tabSize": 2 // other options as needed
+    "editor.tabSize": 2
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
   },
   "emmet.syntaxProfiles": {
@@ -29,15 +44,14 @@
     "typescriptreact": "html",
     "html": {
       "attr_quotes": "double",
-      "self_closing_tag": true,
-    },
+      "self_closing_tag": true
+    }
   },
   "emmet.includeLanguages": {
     "svelte": "html",
     "typescript": "html",
     "javascriptreact": "html",
-    "typescriptreact": "html",
-    //"javascript": "javascriptreact"
+    "typescriptreact": "html"
   },
   "javascript.preferences.quoteStyle": "double",
   "typescript.preferences.quoteStyle": "double"

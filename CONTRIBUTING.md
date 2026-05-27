@@ -9,6 +9,7 @@ Everyone is welcome to contribute to this project. Contributing doesn't just mea
 ### Reporting Issues
 
 If you find a bug or have a feature request:
+
 1. Check if the issue already exists in the [GitHub Issues](https://github.com/orassayag/trello2.0/issues)
 2. If not, create a new issue with:
    - Clear title and description
@@ -32,12 +33,14 @@ If you find a bug or have a feature request:
 ### Code Style Guidelines
 
 This project uses:
+
 - **TypeScript** with strict type checking
 - **Next.js 13** with App Router
 - **ESLint** for code quality
 - **Tailwind CSS** for styling
 
 Before submitting:
+
 ```bash
 # Install dependencies
 npm install
@@ -65,6 +68,7 @@ npm run dev
 ### Adding New Features
 
 When adding new features:
+
 1. Create appropriate TypeScript types in `typings.d.ts`
 2. Add component logic in `src/components/`
 3. Update Zustand stores if state management is needed
@@ -75,6 +79,7 @@ When adding new features:
 ### Environment Setup
 
 Required environment variables:
+
 ```
 NEXT_PUBLIC_APPWRITE_PROJECT_ID=your_project_id
 NEXT_PUBLIC_DATABASE_ID=your_database_id
@@ -97,9 +102,9 @@ OPENAI_API_KEY=your_openai_key
 
 Please feel free to contact me with any question, comment, pull-request, issue, or any other thing you have in mind.
 
-* Or Assayag <orassayag@gmail.com>
-* GitHub: https://github.com/orassayag
-* StackOverflow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
-* LinkedIn: https://linkedin.com/in/orassayag
+- Or Assayag <orassayag@gmail.com>
+- GitHub: https://github.com/orassayag
+- StackOverflow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
+- LinkedIn: https://linkedin.com/in/orassayag
 
 Thank you for contributing! 🙏

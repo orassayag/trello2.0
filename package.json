@@ -1,22 +1,8 @@
 {
   "name": "trello2.0",
   "version": "0.1.0",
-  "description": "A modern, AI-powered task management application with Kanban boards, drag-and-drop functionality, and intelligent task summaries powered by OpenAI",
-  "private": true,
-  "license": "MIT",
-  "author": {
-    "name": "Or Assayag",
-    "email": "orassayag@gmail.com",
-    "url": "https://github.com/orassayag"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/orassayag/trello2.0.git"
-  },
-  "bugs": {
-    "url": "https://github.com/orassayag/trello2.0/issues"
-  },
-  "homepage": "https://github.com/orassayag/trello2.0#readme",
+  "private": false,
+  "description": "A modern, AI-powered task management application that brings Trello's Kanban workflow to life with intelligent task summaries and seamless drag-and-drop interactions. This Next.js application combines the simplicity of Kanban boards with the power of AI to help you stay organized and productive",
   "keywords": [
     "trello",
     "kanban",
@@ -34,21 +20,80 @@
     "zustand",
     "tailwindcss"
   ],
+  "homepage": "https://github.com/orassayag/trello2.0#readme",
+  "bugs": {
+    "url": "https://github.com/orassayag/trello2.0/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orassayag/trello2.0.git"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/orassayag"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Or Assayag",
+    "email": "orassayag@gmail.com",
+    "url": "https://github.com/orassayag"
+  },
+  "contributors": [
+    {
+      "name": "Or Assayag",
+      "email": "orassayag@gmail.com",
+      "url": "https://github.com/orassayag"
+    }
+  ],
+  "type": "commonjs",
+  "main": "src/index.ts",
+  "files": [
+    ".github",
+    ".next",
+    ".vercel",
+    ".vscode",
+    "public",
+    "src",
+    ".env.example",
+    ".env.local",
+    ".eslintrc.json",
+    ".gitignore",
+    ".prettierrc",
+    "appwrite.ts",
+    "CHANGELOG.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "eslint.config.mjs",
+    "INSTRUCTIONS.md",
+    "LICENSE",
+    "next-env.d.ts",
+    "next.config.js",
+    "openai.ts",
+    "package-lock.json",
+    "package.json",
+    "postcss.config.js",
+    "README.md",
+    "SECURITY.md",
+    "tailwind.config.js",
+    "tsconfig.json",
+    "tsconfig.node.json",
+    "typings.d.ts",
+    "vitest.config.ts"
+  ],
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev",
+    "format": "prettier --write .",
+    "lint": "next lint",
+    "start": "next start"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.15",
     "@heroicons/react": "^2.0.18",
     "@types/node": "20.2.5",
-    "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
     "appwrite": "^11.0.0",
     "autoprefixer": "10.4.14",
-    "encoding": "^0.1.13",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.4",
     "next": "13.4.4",
@@ -57,13 +102,18 @@
     "react": "18.2.0",
     "react-avatar": "^5.0.3",
     "react-beautiful-dnd": "^13.1.1",
-    "react-dom": "18.2.0",
+    "react-dom": "^18.2.0",
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4",
     "zustand": "^4.3.8"
   },
   "devDependencies": {
-    "@types/react-beautiful-dnd": "^13.1.4"
+    "@types/react-beautiful-dnd": "^13.1.4",
+    "@typescript-eslint/eslint-plugin": "^8.60.0",
+    "@typescript-eslint/parser": "^8.60.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.3",
+    "prettier-plugin-tailwindcss": "^0.8.0"
   },
   "engines": {
     "node": ">=18.0.0"

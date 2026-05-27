@@ -1,7 +1,7 @@
-import { create } from "zustand";
-import { getTodosGroupedByColumn } from "@/lib/getTodosGroupedByColumn";
-import uploadImage from "@/lib/uploadImage";
-import { ID, databases, storage } from "../../appwrite";
+import { create } from 'zustand';
+import { getTodosGroupedByColumn } from '@/lib/getTodosGroupedByColumn';
+import uploadImage from '@/lib/uploadImage';
+import { ID, databases, storage } from '../../appwrite';
 
 interface BoardState {
   board: Board;
@@ -40,7 +40,7 @@ export const useBoardStore = create<BoardState>((set, get) => ({
       }
     );
   },
-  searchString: "",
+  searchString: '',
   setSearchString: (searchString: string) => set({ searchString }),
   deleteTask: async (taskIndex: number, todo: Todo, id: TypedColumn) => {
     const newColumns = new Map(get().board.columns);
@@ -56,9 +56,9 @@ export const useBoardStore = create<BoardState>((set, get) => ({
       todo.$id
     );
   },
-  newTaskInput: "",
+  newTaskInput: '',
   setNewTaskInput: (input: string) => set({ newTaskInput: input }),
-  newTaskType: "todo",
+  newTaskType: 'todo',
   setNewTaskType: (columnId: TypedColumn) => set({ newTaskType: columnId }),
   image: null,
   setImage: (image: File | null) => set({ image }),
@@ -84,7 +84,7 @@ export const useBoardStore = create<BoardState>((set, get) => ({
         ...(file && { image: JSON.stringify(file) }),
       }
     );
-    set({ newTaskInput: "" });
+    set({ newTaskInput: '' });
     set((state) => {
       const updatedColumns = new Map(state.board.columns);
       const newTodo: Todo = {
